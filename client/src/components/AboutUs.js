@@ -27,26 +27,26 @@ const AboutUs = () => {
             {/* Team Member 1 */}
             <div className="team-member">
               <img src="/images/Hetvi.jpg" alt="Hetvi" className="team-member-photo" />
-              <h3 className="team-member-name">Hetvi</h3>
+              <h3 className="team-member-name">Hetvi Prajapati</h3>
             </div>
             {/* Team Member 2 */}
+            <div className="team-member">
+              <img src="/images/Karen.jpg" alt="Karen" className="team-member-photo" />
+              <h3 className="team-member-name">Karen</h3>
+            </div>
+            {/* Team Member 3 */}
             <div className="team-member">
               <img src="/images/Leor.jpg" alt="Leor" className="team-member-photo" />
               <h3 className="team-member-name">Leor</h3>
             </div>
-            {/* Team Member 3 */}
-            <div className="team-member">
-              <img src="/path_to_karen_photo.jpg" alt="Karen" className="team-member-photo" />
-              <h3 className="team-member-name">Karen</h3>
-            </div>
             {/* Team Member 4 */}
             <div className="team-member">
-              <img src="/path_to_marjan_photo.jpg" alt="Marjan" className="team-member-photo" />
+              <img src="/images/Marjan.jpg" alt="Marjan" className="team-member-photo" />
               <h3 className="team-member-name">Marjan</h3>
             </div>
             {/* Team Member 5 */}
             <div className="team-member">
-              <img src="/path_to_shai_photo.jpg" alt="Shai" className="team-member-photo" />
+              <img src="/images/Shai.jpg" alt="Shai" className="team-member-photo" />
               <h3 className="team-member-name">Shai</h3>
             </div>
           </div>

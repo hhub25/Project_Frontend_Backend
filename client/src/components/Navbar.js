@@ -47,6 +47,7 @@ const Navbar = ({ isAuthenticated, onLogout }) => {
         {isAuthenticated ? (
           <>
             <NavLink to="/userhomepage" className={({ isActive }) => isActive ? "active-link" : ""}>Books</NavLink>
+            <NavLink to="/cart" className={({ isActive }) => isActive ? "active-link" : ""}>Cart</NavLink>
             <NavLink to="/my-profile" className={({ isActive }) => isActive ? "active-link" : ""}>My Profile</NavLink>
             <button onClick={handleLogout} className="logout-button">Sign Out</button>
           </>
