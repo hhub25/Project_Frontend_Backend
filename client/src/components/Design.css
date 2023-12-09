@@ -240,7 +240,12 @@ html, body {
   padding-top: 10px; /* Adds space directly above the Sign Up link */
   border-top: 1px solid #ccc; /* Optional: adds a line above the link for separation */
 }
-
+.signin-link {
+  text-align: center;
+  margin-top: 20px; /* Keeps space above the link */
+  padding-top: 10px; /* Adds space directly above the Sign Up link */
+  border-top: 1px solid #ccc; /* Optional: adds a line above the link for separation */
+}
 .signup-link a {
   color: #000000; /* Example link color */
   text-decoration: none;
